@@ -31,28 +31,27 @@ Simplified Pascal compiler for C Language.
         compositeStatement ::= BEGIN statementList END
 
         statementList ::= statement {';' statement} ';'
-        statement ::= ifstmt | whilestmt | assignstmt | compstmt | readstmt
-                 | writestmt | writelnstmt | returnstmt | procedureCall
+        statement ::= ifStatement | whileStatement | assignStatement | readStatement | writeStatement | writelnStatement | returnStatement | procedureCall | compositeStatement
 
-        ifstmt ::= IF expr THEN stmts [ELSE stmts] ENDIF
-        whilestmt ::= WHILE expr DO stmts ENDWHILE
-        assignstmt ::= variable ':=' expr
-        readstmt ::= READ '(' vblist ')'
-        writestmt ::= WRITE ’(’ exprlist ’)’
-        writelnstmt ::= WRITELN ’(’ [exprlist] ’)’
-        returnstmt ::= RETURN [expr]
-        procedureCall ::= pid '(' [exprlist] ')'
+        ifStatement ::= IF expr THEN statementList [ELSE statementList] ENDIF
+        whileStatement ::= WHILE expr DO statementList ENDWHILE
+        assignStatement ::= variable ':=' expr
+        readStatement ::= READ '(' vbList ')'
+        writeStatement ::= WRITE ’(’ exprList ’)’
+        writelnStatement ::= WRITELN ’(’ [exprList] ’)’
+        returnStatement ::= RETURN [expr]
+        procedureCall ::= pid '(' [exprList] ')'
         
-        vblist ::= variable {',' variable}
+        vbList ::= variable {',' variable}
         variable ::= id ['[' expr ']']
 
         exprList ::= expr {',' expr}
-        expr ::= simexp [relop expr]
-        simexp ::= [unary] term {addop term}
-        term ::= factor {mulop factor}
-        factor ::= variable | number | '(' expr ')' | '"'.'"' | functionCall
+        expr ::= simpleExpr [relOp expr]
+        simpleExpr ::= [unary] term {addop term}
+        term ::= factor {multOp factor}
+        factor ::= variable | number | '(' expr ')' | '"'string'"' | functionCall
         number ::= ['+' | '-'] {digit} ['.'] {digit}
-        functionCall ::= pid '(' [exprlist] ')'
+        functionCall ::= pid '(' [exprList] ')'
 
         id ::= letter {letter | digit}
         pid ::= letter {letter | digit}
