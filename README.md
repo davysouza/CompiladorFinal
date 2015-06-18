@@ -31,7 +31,8 @@ Simplified Pascal compiler for C Language.
         compositeStatement ::= BEGIN statementList END
 
         statementList ::= statement {';' statement} ';'
-        statement ::= ifStatement | whileStatement | assignStatement | readStatement | writeStatement | writelnStatement | returnStatement | procedureCall | compositeStatement
+        statement ::= ifStatement | whileStatement | assignStatement | readStatement | 
+                 writeStatement | writelnStatement | returnStatement | procedureCall | compositeStatement
 
         ifStatement ::= IF expr THEN statementList [ELSE statementList] ENDIF
         whileStatement ::= WHILE expr DO statementList ENDWHILE
