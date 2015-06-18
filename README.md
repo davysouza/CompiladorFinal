@@ -1,2 +1,2 @@
-# CompiladorFinal
-Compilador de PASCAL simplificado para C
+# CompilerProject_SimplifiedPascal
+Simplified Pascal compiler for C Language.
