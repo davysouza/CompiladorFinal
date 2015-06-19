@@ -38,8 +38,8 @@ Simplified Pascal compiler for C Language.
         whileStatement ::= WHILE expr DO statementList ENDWHILE
         assignStatement ::= variable ':=' expr
         readStatement ::= READ '(' vbList ')'
-        writeStatement ::= WRITE ’(’ exprList ’)’
-        writelnStatement ::= WRITELN ’(’ [exprList] ’)’
+        writeStatement ::= WRITE '(' exprList ')'
+        writelnStatement ::= WRITELN '(' [exprList] ')'
         returnStatement ::= RETURN [expr]
         procedureCall ::= pid '(' [exprList] ')'
         
