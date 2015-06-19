@@ -1,7 +1,7 @@
-# CompilerProject_SimplifiedPascal
+# Compiler Project - Simplified Pascal
 Simplified Pascal compiler for C Language.
 
-3rd Phase - Compiler
+## 3rd Phase - Compiler
 
     Grammar:
 
@@ -61,3 +61,9 @@ Simplified Pascal compiler for C Language.
         addOp ::= '+' | '-' | OR
         multOp ::= '*' | '/' | AND | MOD | DIV
         unary ::= '+' | '-' | NOT
+
+## Credits
+Compiler based on:
+    [Learning Compiler Construction by Examples](http://www.cyan-lang.org/jose/courses/02-1/cc/comp.pdf)
+    [Compiladores - Teoria](http://www.cyan-lang.org/jose/courses/10-1/compiladores/compiladores-teoria.pdf)
+    [José Guimarães](http://www.cyan-lang.org/jose)
