@@ -64,6 +64,6 @@ Simplified Pascal compiler for C Language.
 
 ## Credits
 Compiler based on:
-    ### Pratice: [Learning Compiler Construction by Examples](http://www.cyan-lang.org/jose/courses/02-1/cc/comp.pdf)
-    ### Theory: [Compiladores - Teoria](http://www.cyan-lang.org/jose/courses/10-1/compiladores/compiladores-teoria.pdf)
-    ### Professor: [José Guimarães, PhD](http://www.cyan-lang.org/jose)
+### Pratice: [Learning Compiler Construction by Examples](http://www.cyan-lang.org/jose/courses/02-1/cc/comp.pdf)
+### Theory: [Compiladores - Teoria](http://www.cyan-lang.org/jose/courses/10-1/compiladores/compiladores-teoria.pdf)
+### Professor: [José Guimarães, PhD](http://www.cyan-lang.org/jose)
