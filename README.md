@@ -3,7 +3,7 @@ Simplified Pascal compiler for C Language.
 
 ## 3rd Phase - Compiler
 
-    Grammar:
+### Grammar:
 
         program ::= PROGRAM pid ';' body '.'
         body ::= [declarationPart] compositeStatement
@@ -64,6 +64,6 @@ Simplified Pascal compiler for C Language.
 
 ## Credits
 Compiler based on:
-    [Learning Compiler Construction by Examples](http://www.cyan-lang.org/jose/courses/02-1/cc/comp.pdf)
-    [Compiladores - Teoria](http://www.cyan-lang.org/jose/courses/10-1/compiladores/compiladores-teoria.pdf)
-    [José Guimarães](http://www.cyan-lang.org/jose)
+    ### Pratice: [Learning Compiler Construction by Examples](http://www.cyan-lang.org/jose/courses/02-1/cc/comp.pdf)
+    ### Theory: [Compiladores - Teoria](http://www.cyan-lang.org/jose/courses/10-1/compiladores/compiladores-teoria.pdf)
+    ### Professor: [José Guimarães, PhD](http://www.cyan-lang.org/jose)
